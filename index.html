@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS & AI Development Partner | Launching Soon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            900: '#0f172a', /* Dark Navy */
+                            800: '#1e293b',
+                            600: '#2563eb', /* Primary Blue */
+                            500: '#3b82f6',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-800">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="font-bold text-2xl text-brand-900 tracking-tighter">
+                        <i class="fas fa-cube text-brand-600 mr-2"></i>BRAND<span class="text-brand-600">NAME</span>
+                    </span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-slate-600 hover:text-brand-600 font-medium">Services</a>
+                    <a href="#process" class="text-slate-600 hover:text-brand-600 font-medium">Process</a>
+                    <a href="#about" class="text-slate-600 hover:text-brand-600 font-medium">About</a>
+                </div>
+                <div>
+                    <a href="#contact" class="bg-brand-900 text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-brand-800 transition shadow-lg shadow-brand-900/20">
+                        Book Strategy Call
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-brand-900 overflow-hidden">
+        <div class="absolute top-0 left-1/2 w-full -translate-x-1/2 h-full z-0">
+            <div class="absolute top-20 left-20 w-72 h-72 bg-brand-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+            <div class="absolute top-20 right-20 w-72 h-72 bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        </div>
+
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-blue-200 mb-8 animate-pulse">
+                <span class="w-2 h-2 rounded-full bg-green-400"></span>
+                <span class="text-sm font-medium tracking-wide uppercase">Official Launch In:</span>
+                <div id="countdown" class="font-mono font-bold text-white ml-2">00d 00h 00m 00s</div>
+            </div>
+
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight mb-6">
+                Build & Scale Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">SaaS Product</span>
+            </h1>
+            <p class="mt-4 text-xl text-slate-300 max-w-3xl mx-auto mb-10">
+                We help US startups turn ideas into scalable SaaS platforms using MERN & AI automation. Reliable, transparent, and built for growth.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="px-8 py-4 bg-brand-600 text-white rounded-lg font-bold text-lg hover:bg-brand-500 transition shadow-lg shadow-blue-500/30">
+                    Book Free Strategy Call
+                </a>
+                <a href="#case-studies" class="px-8 py-4 bg-transparent border border-slate-600 text-white rounded-lg font-bold text-lg hover:bg-white/5 transition">
+                    View Case Studies
+                </a>
+            </div>
+
+            <div class="mt-16 pt-8 border-t border-slate-800">
+                <p class="text-slate-400 text-sm uppercase tracking-widest mb-6">Powering Modern Stacks</p>
+                <div class="flex justify-center gap-8 md:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+                    <i class="fab fa-react text-4xl text-blue-400"></i>
+                    <i class="fab fa-node text-4xl text-green-500"></i>
+                    <i class="fab fa-aws text-4xl text-orange-400"></i>
+                    <i class="fab fa-python text-4xl text-yellow-300"></i>
+                    <i class="fab fa-js text-4xl text-yellow-400"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-base text-brand-600 font-semibold tracking-wide uppercase">Our Expertise</h2>
+                <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-brand-900 sm:text-4xl">
+                    Everything You Need to Scale
+                </p>
+                <p class="mt-4 max-w-2xl text-xl text-slate-500 mx-auto">
+                    From MVP to Enterprise AI, we provide end-to-end development services.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:shadow-xl transition hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-rocket text-brand-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-2">MVP Development</h3>
+                    <p class="text-slate-600 text-sm mb-4">Launch your startup idea in 4-8 weeks with a scalable architecture.</p>
+                    <ul class="text-sm text-slate-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>UI/UX Planning</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Core Features</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>30 Days Support</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:shadow-xl transition hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-layer-group text-purple-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-2">SaaS Development</h3>
+                    <p class="text-slate-600 text-sm mb-4">Robust multi-tenant systems designed for high-growth companies.</p>
+                    <ul class="text-sm text-slate-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Payment Integration</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Role-Based Access</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Cloud Hosting</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:shadow-xl transition hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-robot text-teal-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-2">AI Automation</h3>
+                    <p class="text-slate-600 text-sm mb-4">Integrate LLMs and automate workflows to save time and costs.</p>
+                    <ul class="text-sm text-slate-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>AI Chatbots</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Workflow Auto</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>API Integration</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:shadow-xl transition hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4">
+                        <i class="fas fa-users text-orange-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-2">Dedicated Teams</h3>
+                    <p class="text-slate-600 text-sm mb-4">Your own offshore dev team integrated into your workflow.</p>
+                    <ul class="text-sm text-slate-500 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>160 Hours/Month</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Daily Updates</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Direct Slack Access</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-brand-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">Why US Startups Trust Us</h2>
+                    <div class="space-y-6">
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-10 w-10 rounded-md bg-brand-600 text-white">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium leading-6">US-Friendly Communication</h3>
+                                <p class="mt-2 text-base text-slate-300">We work overlapping hours to ensure smooth collaboration and updates.</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-10 w-10 rounded-md bg-brand-600 text-white">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium leading-6">Scalable Architecture</h3>
+                                <p class="mt-2 text-base text-slate-300">We don't just write code; we build systems ready for Series A growth.</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div class="flex-shrink-0">
+                                <div class="flex items-center justify-center h-10 w-10 rounded-md bg-brand-600 text-white">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium leading-6">NDA & IP Protection</h3>
+                                <p class="mt-2 text-base text-slate-300">Your Intellectual Property is yours. We sign strict NDAs before we start.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white/5 p-8 rounded-2xl border border-white/10 text-center">
+                    <h3 class="text-2xl font-bold mb-4">Launching in February?</h3>
+                    <p class="text-slate-300 mb-6">Secure your development slot before our official opening. We are accepting only 3 new clients this month.</p>
+                    <a href="#contact" class="inline-block w-full py-4 bg-white text-brand-900 font-bold rounded-lg hover:bg-slate-100 transition">
+                        Reserve Your Spot
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 border-t border-slate-800 pt-12 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-slate-400 text-sm">
+                &copy; 2026 [Your Brand Name]. All rights reserved. <br>
+                Designed for US Startups.
+            </div>
+            <div class="flex space-x-6">
+                <a href="#" class="text-slate-400 hover:text-white"><i class="fab fa-linkedin text-xl"></i></a>
+                <a href="#" class="text-slate-400 hover:text-white"><i class="fab fa-twitter text-xl"></i></a>
+                <a href="#" class="text-slate-400 hover:text-white"><i class="fab fa-github text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Set the date we're counting down to (Feb 18, 2026)
+        const countDownDate = new Date("Feb 18, 2026 09:00:00").getTime();
+
+        // Update the count down every 1 second
+        const x = setInterval(function() {
+            const now = new Date().getTime();
+            const distance = countDownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result
+            document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "WE ARE LIVE!";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
